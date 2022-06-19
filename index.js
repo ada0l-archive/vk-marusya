@@ -13,5 +13,5 @@ const http = require("http").createServer(server);
 server.post("/toster", async (req, res) => res.send(marusyaHello(req.body)));
 
 http.listen(5000, function () {
-    console.log("Приложение запущено на порту 3000!");
+    console.log("Приложение запущено на порту 5000!");
 });
